@@ -1,34 +1,23 @@
-# Dyad
+# HH-Builder
 
-Dyad is a local, open-source AI app builder. It's fast, private, and fully under your control — like Lovable, v0, or Bolt, but running right on your machine.
+**AI-powered app builder. One-time $5 license. No subscription.**
 
-[![Image](https://github.com/user-attachments/assets/f6c83dfc-6ffd-4d32-93dd-4b9c46d17790)](https://dyad.sh/)
+Build full-stack web apps using AI directly on your desktop. HH-Builder is a fork of Dyad, stripped of all telemetry, Pro upsells, and remote dependencies.
 
-More info at: [https://dyad.sh/](https://dyad.sh/)
+## Features
+- AI app generation using your own API keys (OpenAI, Anthropic, OpenRouter, etc.)
+- Runs fully local ? no data sent to third-party servers
+- One-time purchase, no subscription required
+- Built on Electron + React + SQLite
 
-## 🚀 Features
+## Download
+Coming soon ? see [Releases](https://github.com/toletmelearn/hh-builder/releases)
 
-- ⚡️ **Local**: Fast, private and no lock-in.
-- 🛠 **Bring your own keys**: Use your own AI API keys — no vendor lock-in.
-- 🖥️ **Cross-platform**: Easy to run on Mac or Windows.
-
-## 📦 Download
-
-No sign-up required. Just download and go.
-
-### [👉 Download for your platform](https://www.dyad.sh/#download)
-
-## 🤝 Community
-
-Join our growing community of AI app builders on **Reddit**: [r/dyadbuilders](https://www.reddit.com/r/dyadbuilders/) - share your projects and get help from the community!
-
-## 🛠️ Contributing
-
-**Dyad** is open-source (see License info below).
-
-If you're interested in contributing to dyad, please read our [contributing](./CONTRIBUTING.md) doc.
+## Development
+```bash
+npm install
+npm start
+```
 
 ## License
-
-- All the code in this repo outside of `src/pro` is open-source and licensed under Apache 2.0 - see [LICENSE](./LICENSE).
-- All the code in this repo within `src/pro` is fair-source and licensed under [Functional Source License 1.1 Apache 2.0](https://fsl.software/) - see [LICENSE](./src/pro/LICENSE).
+Based on [Dyad](https://github.com/dyad-sh/dyad) (Apache 2.0). Modified by Amar JS Saxena.
