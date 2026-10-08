@@ -1,0 +1,12 @@
+// HH-Builder: OpenRouter attribution
+export const OPENROUTER_APP_REFERER = "https://github.com/hh-builder";
+export const OPENROUTER_APP_TITLE = "hh-builder";
+export const OPENROUTER_APP_CATEGORIES = "native-app-builder,programming-app";
+
+export function getOpenRouterAppAttributionHeaders(): Record<string, string> {
+  return {
+    "HTTP-Referer": OPENROUTER_APP_REFERER,
+    "X-OpenRouter-Title": OPENROUTER_APP_TITLE,
+    "X-OpenRouter-Categories": OPENROUTER_APP_CATEGORIES,
+  };
+}
