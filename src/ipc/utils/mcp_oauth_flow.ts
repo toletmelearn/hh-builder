@@ -145,7 +145,7 @@ function renderCallbackPage(options: {
     <p>${safeMessage}</p>
     ${
       isSuccess
-        ? `<a class="btn" href="${returnUrl}">Open Dyad</a>
+        ? `<a class="btn" href="${returnUrl}">Open HH-Builder</a>
     <script>
       setTimeout(function () { window.location.href = ${JSON.stringify(returnUrl)}; }, 500);
     </script>`

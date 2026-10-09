@@ -235,7 +235,7 @@ export function HomeChatInput({
                   render={
                     <button
                       onClick={() =>
-                        ipc.system.openExternalUrl("https://dyad.sh/pro")
+                        ipc.system.openExternalUrl("#")
                       }
                       disabled={disabled}
                       aria-label="Voice to text (Pro)"

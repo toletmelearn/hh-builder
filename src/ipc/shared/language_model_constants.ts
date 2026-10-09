@@ -619,7 +619,7 @@ export const CLOUD_PROVIDERS: Record<
   },
   auto: {
     displayName: "Dyad",
-    websiteUrl: "https://academy.dyad.sh/subscription",
+    websiteUrl: "#",
     gatewayPrefix: "dyad/",
   },
   azure: {

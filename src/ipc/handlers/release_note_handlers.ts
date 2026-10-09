@@ -27,7 +27,7 @@ export function registerReleaseNoteHandlers() {
       }
       // HH-Builder: no remote release notes
       return { exists: false };
-      const releaseNoteUrl = `https://www.dyad.sh/docs/releases/${version}`;
+      const releaseNoteUrl = `https://github.com/toletmelearn/hh-builder/releases/tag/v${version}`;
 
       logger.debug(`Checking for release note at: ${releaseNoteUrl}`);
 

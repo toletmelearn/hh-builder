@@ -80,7 +80,7 @@ const PRO_PILL_CLASS = cn(
 );
 
 const DYAD_PRO_UPGRADE_BASE_URL =
-  "https://www.dyad.sh/pro?utm_source=dyad-app&utm_medium=app";
+  "#";
 
 type Tier = { label: string; caption: string; min: number; max: number };
 const PRICE_TIERS: Tier[] = [
@@ -970,7 +970,7 @@ export function ModelPicker() {
                   className="cursor-pointer w-full bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white border-indigo-600"
                   onClick={() => {
                     ipc.system.openExternalUrl(
-                      "https://academy.dyad.sh/subscription",
+                      "#",
                     );
                     setOpen(false);
                   }}

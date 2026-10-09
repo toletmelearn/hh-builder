@@ -76,7 +76,7 @@ const screenTransition = {
 // =============================================================================
 
 const GITHUB_ISSUES_BASE =
-  "https://github.com/dyad-sh/dyad/issues/new" as const;
+  "https://github.com/toletmelearn/hh-builder/issues/new" as const;
 
 function formatSettingsLines(
   settings: UserSettings | null,
@@ -435,7 +435,7 @@ ${formatLogsSection(debugInfo)}
     setIsUploading(true);
     try {
       const response = await fetch(
-        "https://upload-logs.dyad.sh/generate-upload-url",
+        "",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -545,7 +545,7 @@ ${formatLogsSection(debugInfo)}
           <Button
             variant="outline"
             onClick={() =>
-              ipc.system.openExternalUrl("https://www.dyad.sh/docs")
+              ipc.system.openExternalUrl("https://github.com/toletmelearn/hh-builder")
             }
             className="w-full py-6 bg-(--background-lightest)"
           >
